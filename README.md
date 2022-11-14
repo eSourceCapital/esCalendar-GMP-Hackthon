@@ -7,3 +7,11 @@ Principal features are:
 * Lets you know if you have to leave now to arrive on time.
 * Shows the distance from the current location to the event location.
 * Shows the weather at the event location.
+
+### Installation
+
+To install the extension, you need to download the source code and load it as an unpacked extension in Chrome.
+
+### Usage
+
+To use the extension, you need to have a Google Calendar account and have the extension installed.
