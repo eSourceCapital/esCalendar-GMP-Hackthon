@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "ESCalendar",
+  "version": "1.0",
+  "description": "Add the reading time to Chrome Extension documentation articles",
+  "content_scripts": [
+    {
+      "content_security_policy": "script-src 'self' https://maps.googleapis.com https://maps.gstatic.com; object-src 'self'",
+      "js": ["scripts/content.js"],
+      "matches": ["https://calendar.google.com/calendar/*"]
+    }
+  ],
+  "web_accessible_resources": ["js/inject.js", "scripts/inject.js"],
+  "permissions": ["tabs", "<all_urls>"] 
+}
