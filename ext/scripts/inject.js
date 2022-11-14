@@ -354,7 +354,7 @@ function waitForElementToDisplay(selector, time) {
                                 navigatorLocation = navigator.geolocation.getCurrentPosition(function (position) {
                                     const weather_api = "https://api.openweathermap.org/data/2.5/weather?lat=" + position.coords.latitude + "&lon=" + position.coords.longitude;
                                     //api.openweathermap.org/data/2.5/forecast/daily?lat={lat}&lon={lon}&cnt={cnt}&appid={API key}
-                                    const weather_api_key = "89703565cfead1fe1ba7c90cfd7571f3";
+                                    const weather_api_key = "";
                                     const weather_url = weather_api + "&appid=" + weather_api_key;
                                     fetch(weather_url).then(function (response) {
                                         return response.json();
